@@ -1,0 +1,292 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Yasmine Boujnah!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Yasmine Boujnah!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Yasmine Boujnah!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Yasmine Boujnah** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Morocco – Casablanca",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "yasmineboujnah07@gmail.com",
+                    "links": [
+                        {"href": "yasmineboujnah07@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@YasmineBoujnah",
+                    "links": [
+                        {"href": "https://github.com/YasmineBoujnah"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/logo/coding.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I am a young Moroccan woman aged 20, currently in my second year of a technician specializing in Full-stack development. I am innovative, versatile and passionate about new technologies, whether it is backend, frontend, machine learning, cloud or DevOps.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"},
+                        "es": {"text": "<p>Soy un joven marroquí de 20 años, actualmente en segundo año. tecnico especializado en desarrollo Pila completa. Soy innovador, versatil y apasionado por las noticias tecnologías, ya sean backend, interfaz, aprendizaje automático, nube o DevOps.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
+                        "fr": {"text": "<p>Je suis une jeune Marocaine âgée de 20 ans, actuellement en deuxième année de technicien spécialisée en développement Full-stack. Je suis innovante, polyvalente et passionnée par les nouvelles technologies, qu'il s'agisse de backend, de frontend, de machine learning, de cloud ou de DevOps.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
+                        "ko": {"text": "<p>저는 20세의 젊은 모로코 사람이고 현재 2학년입니다. 개발 전문 기술자 풀스택. 나는 혁신적이고 다재다능합니다. 그리고 뉴스에 대한 열정 기술, 백엔드 여부, 프론트엔드, 머신러닝, 클라우드 또는 DevOps.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
+                    }
+                }
+            ]
+        },
+
+
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-language",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Translation",
+                            "info": "Explore different languages ​​and improve my skills."
+                        },
+                        "es": {
+                            "title": "Traducción",
+                            "info": "Explorar diferentes idiomas y mejorar mis habilidades.."
+                        },
+                        "fr": {
+                            "title": "Traduction",
+                            "info": "Explorer différents Langages et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "번역",
+                            "info": "다양한 언어를 탐색하고 실력을 향상해보세요."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cake-candles",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cooking",
+                            "info": "Cooking is an art that brings flavors together, transforming simple ingredients into delicious, nourishing meals."
+                        },
+                        "es": {
+                            "title": "cocinando",
+                            "info": "Cocinar es un arte que une sabores, transformando ingredientes simples en comidas deliciosas y nutritivas."
+                        },
+                        "fr": {
+                            "title": "cuisson",
+                            "info": "La cuisine est un art qui rassemble les saveurs, transformant des ingrédients simples en repas délicieux et nourrissants."
+                        },
+                        "ko": {
+                            "title": "요리",
+                            "info": "요리는 여러 맛을 하나로 모아 간단한 재료를 맛있고 영양가 있는 요리로 바꾸는 예술입니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-hat-wizard",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "knitting",
+                            "info": "Knitting is a relaxing and creative craft that transforms yarn into unique, handmade pieces."
+                        },
+                        "es": {
+                            "title": "tejido de punto",
+                            "info": "Tejer es una artesanía relajante y creativa que transforma el hilo en piezas únicas hechas a mano."
+                        },
+                        "fr": {
+                            "title": "tricot",
+                            "info": "Le tricot est un artisanat relaxant et créatif qui transforme le fil en pièces uniques faites à la main."
+                        },
+                        "ko": {
+                            "title": "편물",
+                            "info": "뜨개질은 실을 이용해 독특하고 손수 만든 작품을 만드는 편안하고 창의적인 공예입니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-bicycle",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "cycling",
+                            "info": "Cycling combines fitness and exploration, a sustainable way to connect with the world around us."
+                        },
+                        "es": {
+                            "title": "ciclismo",
+                            "info": "El ciclismo combina fitness y exploración, una forma sostenible de conectarnos con el mundo que nos rodea."
+                        },
+                        "fr": {
+                            "title": "vélo",
+                            "info": "Le cyclisme allie forme physique et exploration, une façon durable de se connecter avec le monde qui nous entoure."
+                        },
+                        "ko": {
+                            "title": "사이클링",
+                            "info": "자전거 타기는 피트니스와 탐험을 결합한 것으로, 우리 주변 세계와 지속 가능하게 연결되는 방법입니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gamepad",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "video games",
+                            "info": "Video games offer immersion, creativity and connection with global communities."
+                        },
+                        "es": {
+                            "title": "Juegos de vídeo",
+                            "info": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "jeux vidéo",
+                            "info": "Les jeux vidéo offrent immersion, créativité et connexion avec des communautés mondiales."
+                        },
+                        "ko": {
+                            "title": "비디오 게임",
+                            "info": "비디오 게임은 몰입감, 창의성, 글로벌 커뮤니티와의 연결을 제공합니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-person-hiking",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "hiking",
+                            "info": "Hiking is a rejuvenating way to explore nature, offering physical challenges, mental clarity."
+                        },
+                        "es": {
+                            "title": "senderismo",
+                            "info": "El senderismo es una forma rejuvenecedora de explorar la naturaleza, que ofrece desafíos físicos y claridad mental."
+                        },
+                        "fr": {
+                            "title": "randonnée",
+                            "info": "La randonnée est une façon revigorante d'explorer la nature, offrant des défis physiques et une clarté mentale"
+                        },
+                        "ko": {
+                            "title": "하이킹",
+                            "info": "하이킹은 자연을 탐험하는 활력을 되찾는 방법으로 신체적 도전과 정신적 명확성을 제공합니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
