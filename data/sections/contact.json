@@ -1,0 +1,119 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contácta**me"
+        },
+
+        "fr": {
+            "title": "Contact",
+            "title_long_prefix": "N'hésitez pas à",
+            "title_long": "Me **Contacter**"
+        },
+
+        "ko": {
+            "title": "연락처",
+            "title_long_prefix": "주저하지 말고",
+            "title_long": "**연락** 주세요"
+        }
+    },
+
+    "articles": [
+    
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+
+            "items": [
+                {
+                    "value": "+212 20523891",
+                    "links": [
+                        {"href": "tel:+212 20523891"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"},
+                        "fr": {"title": "Téléphone"},
+                        "ko": {"title": "전화"}
+                    }
+                },
+
+                {
+                    "value": "yasmineboujnah07@email.com",
+                    "links": [
+                        {"href": "yasmineboujnah07@email.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "ko": {"title": "이메일"}
+                    }
+                },
+
+                {
+                    "value": "Yasmine Boujnah",
+                    "links": [
+                        {"href": "www.linkedin.com/in/yasmine-boujnah"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "@vaneeellopeee",
+                    "links": [
+                        {"href": "https://www.instagram.com/vaneeellopeee/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"}
+                    }
+                },
+
+                {
+                    "value": "@YasmineBoujnah",
+                    "links": [
+                        {"href": "https://github.com/YasmineBoujnah"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Github"}
+                    }
+                }
+            ]
+        }
+    ]
+}
